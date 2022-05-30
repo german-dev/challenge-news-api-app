@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "news": "apps/news",
-    "news-e2e": "apps/news-e2e"
+    "news-e2e": "apps/news-e2e",
+    "pages": "libs/pages",
+    "shared-ui": "libs/shared-ui"
   }
 }
