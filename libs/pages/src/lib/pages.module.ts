@@ -16,5 +16,11 @@ export const pagesRoutes: Route[] = [];
     NewsListComponent,
     NewsDetailsComponent,
   ],
+  exports: [
+    NewsTileComponent,
+    HomeComponent,
+    NewsListComponent,
+    NewsDetailsComponent,
+  ],
 })
 export class PagesModule {}

@@ -9,5 +9,6 @@ export const sharedUiRoutes: Route[] = [];
 @NgModule({
   imports: [CommonModule, RouterModule],
   declarations: [HeaderComponent, SearchComponent],
+  exports: [HeaderComponent, SearchComponent],
 })
 export class SharedUiModule {}

@@ -1,0 +1,40 @@
+@import '../../../../../news-styles/src/lib/styles.scss';
+
+.header {
+  z-index: 100;
+  position: fixed;  
+  left: 50%;   
+  transform: translatex(-50%);
+  width: 95%;
+  background-color: $neutral-3;
+  background: linear-gradient(90deg, rgba($blue-2 ,1) 0%, rgba($blue-3,1) 35%, rgba($blue-1,1) 100%);
+  min-height: $base-sizing-4;
+  max-height: $base-sizing-4;
+  padding: 0 $base-sizing;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $base-sizing-1half;
+  box-shadow: -2px 14px 56px 1px rgba($blue-3,0.5);
+-webkit-box-shadow: -2px 14px 56px 1px rgba($blue-3,0.5);
+-moz-box-shadow: -2px 14px 56px 1px rgba($blue-3,0.5);
+ 
+
+  .challenge {
+      left: $base-sizing-1andquarter;
+      position: absolute;
+      flex-shrink: 3;
+      @include content-regular;
+      color: $neutral-4;
+
+      @media #{$lt-sm} {
+          display: none;
+      }
+  }
+
+  .news-app {
+      flex-shrink: 1;
+      @include title-semibold;
+      color: $paper-0;
+  }
+}
