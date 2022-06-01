@@ -1,0 +1,62 @@
+@import './color-palette';
+// Media Breakpoints
+$xxs: "screen and (max-width: 399px)'";
+$xs: "screen and (min-width: 400px) and (max-width: 599px)'";
+$sm: 'screen and (min-width: 600px) and (max-width: 959px)';
+$md: 'screen and (min-width: 960px) and (max-width: 1279px)';
+$lg: 'screen and (min-width: 1280px) and (max-width: 1919px)';
+$xl: 'screen and (min-width: 1920px) and (max-width: 5000px)';
+
+$lt-xs: 'screen and (max-width: 399px)';
+$lt-sm: 'screen and (max-width: 599px)';
+$lt-md: 'screen and (max-width: 959px)';
+$lt-lg: 'screen and (max-width: 1279px)';
+$lt-xl: 'screen and (max-width: 1919px)';
+
+$gt-xs: 'screen and (min-width: 600px)';
+$gt-sm: 'screen and (min-width: 960px)';
+$gt-md: 'screen and (min-width: 1280px)';
+$gt-lg: 'screen and (min-width: 1920px)';
+
+$sm-size: 960px;
+$max-width: 960px;
+
+/* sizing */
+
+$base-sizing: 16px;
+$base-sizing-3quarter: $base-sizing * 0.75;
+$base-sizing-1half: $base-sizing * 0.5;
+$base-sizing-1quarter: $base-sizing * 0.25;
+$base-sizing-1andquarter: $base-sizing * 1.25;
+$base-sizing-1andhalf: $base-sizing * 1.5;
+$base-sizing-2: $base-sizing * 2;
+$base-sizing-3: $base-sizing * 3;
+$base-sizing-4: $base-sizing * 4;
+$base-sizing-5: $base-sizing * 5;
+$base-sizing-6: $base-sizing * 6;
+$base-sizing-7: $base-sizing * 7;
+$base-sizing-8: $base-sizing * 8;
+$base-sizing-12: $base-sizing * 12;
+$base-sizing-24: $base-sizing * 24;
+$base-sizing-32: $base-sizing * 32;
+$base-sizing-40: $base-sizing * 40;
+$base-sizing-48: $base-sizing * 48;
+$margin-gap-1: 12px;
+$margin-gap-2: 24px;
+$margin-gap-3: 36px;
+$margin-gap-4: 48px;
+
+$icon-tiny: 12px;
+$icon-small: 16px;
+$icon-medium: 24px;
+$icon-large: 28px;
+
+/* general set color */
+
+$general-border-radius: $base-sizing-1half;
+$background-info-color: $neutral-4;
+$general-background: $paper-0;
+$general-hover-background: $neutral-4;
+$general-object-padding: $base-sizing;
+$general-text-color: $neutral-1;
+$general-sub-text-color: $neutral-2;
