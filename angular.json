@@ -4,6 +4,7 @@
   "projects": {
     "news": "apps/news",
     "news-e2e": "apps/news-e2e",
+    "news-styles": "libs/news-styles",
     "pages": "libs/pages",
     "shared-ui": "libs/shared-ui"
   }

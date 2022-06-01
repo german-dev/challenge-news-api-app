@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@german/pages": ["libs/pages/src/index.ts"],
+      "news-styles": ["libs/news-styles/src/index.ts"],
       "shared-ui": ["libs/shared-ui/src/index.ts"]
     }
   },
